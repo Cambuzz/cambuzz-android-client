@@ -20,6 +20,11 @@ The result apk file will be placed in ```source-code/app/build/outputs/apk/```.
 
 All contributions should be done in **bug-fixes** branch.
 
+# App Work Flow 
+
+![Unable to load Image](https://github.com/Cambuzz/cambuzz-android-client/blob/master/ui-design/app-flow/workflow_1.png)
+![Unable to load Image](https://github.com/Cambuzz/cambuzz-android-client/blob/master/ui-design/app-flow/workflow_2.png)
+
 # License for use and distribution
 
 The MIT License (MIT) Copyright (c) 2016 Cambuzz (Prashant Kumar Bhardwaj, Prastut Kumar, Fenil Patel, Prasang Sharma, Shantanu Tripathi, Divyang Duhan)
