@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:text=""
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:paddingLeft="30dp"
+        android:paddingTop="15dp"
+        android:paddingRight="30dp"
+        android:gravity="top"
+        android:id="@+id/bt_dataShow"
+        android:fontFamily="sans-serif-light"
+        android:textAllCaps="false"
+        android:background="@drawable/bubble_nnew"
+        />
+
+<!--
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/faculty"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        />
+
+-->
+
+</LinearLayout>

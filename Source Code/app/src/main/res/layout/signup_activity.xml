@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Your Name"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/et_signup_name"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="VIT Registration Number"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_signup_reg"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="VIT Email eg. "
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_signup_email"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Set Password"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:password="true"
+        android:id="@+id/et_signup_pass"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm Password"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:password="true"
+        android:id="@+id/et_signup_confirmpass"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_signup_confirm"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="SIGNUP"
+        android:background="@drawable/bg_login_filled_color"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_response"
+        />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#000000"
+    >
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:fontFamily="sans-serif-light"
+            android:padding="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Team Cambuzz :\n\nAmidst late night maggi sessions, the idea of Cambuzz was born. Headquartered in VIT Chennai, Cambuzz began as a side project and is now a tiny, bootstrapped idea helping the VIT Chennai family to share their events and is trying to become a go-to resource for discovering and connecting with everyone in the campus.\n\n\nCambuzz is your college buddy that will bring all the buzz happening around in your college at the tap of your finger. Ongoing events, upcoming competitions, fresh news, rumours and a lot more. It is also equipped with - Track your teacher, where you check whether a particular faculty is free or not at the moment or what are their free slots. Not only that, you get the cabin location details of that faculty too. Yes, we know its amazing!"
+            android:textSize="20dp"
+            android:id="@+id/tv_About_us"
+            android:autoText="true"
+            android:background="@drawable/bg_parent_rounded_corner"
+            android:textColor="#ff000000"
+            />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

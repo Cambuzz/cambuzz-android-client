@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="NewAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">#e85657</item>
+        <item name="colorPrimary">#e85657</item>
+        <item name="android:textColorPrimary">#fdfff2</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:editTextColor">@android:color/background_dark</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="colorControlNormal">@android:color/background_dark</item>
+        <item name="colorControlActivated">#e85657</item>   <!-- Actionbar -->
+        <item name="colorControlHighlight">#e85657</item>
+    </style>
+
+    <style name="CustomTextViewStyle" parent="android:Widget.TextView">
+
+        <item name="android:fontFamily">sans-serif-light</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+
+</resources>

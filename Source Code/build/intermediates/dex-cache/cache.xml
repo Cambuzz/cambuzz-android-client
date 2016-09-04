@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/prasang/AndroidStudioProjects/cambuzzvitcc_1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/prasang/AndroidStudioProjects/cambuzzvitcc_1/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.0.1_1644e30daa5819e7773c532048ce2862f1c6484a.jar" />
+    </item>
+    <item
+        jar="/home/prasang/AndroidStudioProjects/cambuzzvitcc_1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/prasang/AndroidStudioProjects/cambuzzvitcc_1/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.0.1_5ab3bfaff7eac6a7f6b048734973753d963bbbb4.jar" />
+    </item>
+    <item
+        jar="/home/prasang/AndroidStudioProjects/cambuzzvitcc_1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/prasang/AndroidStudioProjects/cambuzzvitcc_1/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1_58e7211e24263c16003e599a72160fc11caa9bec.jar" />
+    </item>
+    <item
+        jar="/home/prasang/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/prasang/AndroidStudioProjects/cambuzzvitcc_1/app/build/intermediates/pre-dexed/release/support-annotations-23.0.1_40188b425b719ebd38b3259970d2536703a768df.jar" />
+    </item>
+    <item
+        jar="/home/prasang/AndroidStudioProjects/cambuzzvitcc_1/app/libs/volley.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/home/prasang/AndroidStudioProjects/cambuzzvitcc_1/app/build/intermediates/pre-dexed/release/volley_cb4d220ca8cd4ff02f759c2c6850da93b3c8cc1c.jar" />
+    </item>
+    <item
+        jar="/home/prasang/AndroidStudioProjects/cambuzzvitcc_1/app/libs/org.apache.http.legacy.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
+        <dex dex="/home/prasang/AndroidStudioProjects/cambuzzvitcc_1/app/build/intermediates/pre-dexed/release/org.apache.http.legacy_82615d2b07e5415ce7ba3bed0439e86ab3a4358f.jar" />
+    </item>
+
+</items>

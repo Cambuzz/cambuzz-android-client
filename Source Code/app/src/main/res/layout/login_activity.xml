@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/timepass"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/et_email"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:hint=" Registration Number"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingLeft="8dp"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/et_password"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:hint=" Password"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingLeft="8dp"
+        android:password="true"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_login"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="LOGIN"
+        android:background="@drawable/bg_login_filled_color"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Not a member? Register Now!"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tv_not_a_member"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_signup"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="SIGN UP"
+        android:background="@drawable/bg_login_filled_color"
+        android:textColor="#ffffff"
+        />
+
+</LinearLayout>

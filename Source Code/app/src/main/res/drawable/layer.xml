@@ -1,0 +1,4 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/whitewhite" />
+    <item android:drawable="@drawable/next" />
+</layer-list>
