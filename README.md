@@ -6,3 +6,13 @@ This repository contains the android client of [Cambuzz Vitcc](http://www.cambuz
 2. Clone your forked repository : `git clone https://github.com/Cambuzz/cambuzz-android-client.git`
 3. Move to android project folder `cd source-code`
 4. Open the project with Android Studio
+
+# How to build
+
+All dependencies are defined in ```source-code/app/build.gradle```. Import the project in Android Studio or use Gradle in command line:
+
+```
+./gradlew assembleRelease
+```
+
+The result apk file will be placed in ```source-code/app/build/outputs/apk/```.
