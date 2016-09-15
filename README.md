@@ -22,8 +22,8 @@ All contributions should be done in **bug-fixes** branch.
 
 ## App Work Flow 
 
-![Unable to load Image](https://github.com/Cambuzz/cambuzz-android-client/blob/master/ui-design/app-flow/workflow_1.png)
-![Unable to load Image](https://github.com/Cambuzz/cambuzz-android-client/blob/master/ui-design/app-flow/workflow_2.png)
+![Unable to load Image](https://github.com/Cambuzz/cambuzz-android-client/blob/master/ui-design/app-flow/Cambuzz_1.png)
+![Unable to load Image](https://github.com/Cambuzz/cambuzz-android-client/blob/master/ui-design/app-flow/Cambuzz_2.png)
 
 ## License for use and distribution
 
