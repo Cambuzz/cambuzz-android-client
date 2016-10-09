@@ -1,6 +1,7 @@
 # Cambuzz-android-client
 
 [![Join the chat at https://gitter.im/cambuzz-youth-networking-platform/mobile](https://badges.gitter.im/cambuzz-youth-networking-platform/mobile.svg)](https://gitter.im/cambuzz-youth-networking-platform/mobile?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository contains the android client of [Cambuzz Vitcc](http://www.cambuzz.co.in/). This app connects the Cambuzz user directly to the Buzz feed of Cambuzz - Ongoing events, upcoming competitions, fresh news, rumours and a lot more. It also provides with the module of 'Track Your Teacher', where students can check whether a particular faculty is free or not at the moment or what are their free slots. Not only that, they get the cabin location details of that faculty.
 
 ## Development Setup
