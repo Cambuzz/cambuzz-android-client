@@ -1,2 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/prasang/Other Projects/cambuzz-android-client/source-code/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/prasang/Other Projects/cambuzz-android-client/source-code/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_02ff9b9033639add555e6a34402e0001b259c44c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prasang/Other Projects/cambuzz-android-client/source-code/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e427637efcaffbeab9ae7eeb746c4014e26ac63">
+        <dex dex="/Users/prasang/Other Projects/cambuzz-android-client/source-code/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c19c32ea52840d3544cd8d93a0197289a537d05d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prasang/Other Projects/cambuzz-android-client/source-code/app/libs/volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/Users/prasang/Other Projects/cambuzz-android-client/source-code/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_4e123cba8bf27800277ad90a35f8e167fed73d66/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/prasang/Other Projects/cambuzz-android-client/source-code/app/libs/org.apache.http.legacy.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
+        <dex dex="/Users/prasang/Other Projects/cambuzz-android-client/source-code/app/build/intermediates/transforms/dex/debug/folders/1000/2/org.apache.http.legacy_7d0c30fd40cede9b43c782acbffb6ce23a42acc9/classes.dex" />
+    </item>
+
+</items>

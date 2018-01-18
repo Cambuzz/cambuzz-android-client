@@ -7,12 +7,10 @@ import android.os.Bundle;
 
 import com.cambuzz.internetcabin.cambuzzvitcc.swipe.Majormain;
 
+public class Splash extends Activity {
 
-public class Splash extends Activity
-{
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_splash);
@@ -22,18 +20,14 @@ public class Splash extends Activity
         {
           public void run()
           {
-                try
-                {
+                try {
                     sleep(2000);
                 }
-                catch (InterruptedException e)
-                {
+                catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                finally
-                {
+                finally {
                     finish();
-
                     startActivity(new Intent(Splash.this, Majormain.class));
                 }
           }
@@ -41,7 +35,4 @@ public class Splash extends Activity
         };
         timer.start();
     }
-
-
-
 }
