@@ -40,8 +40,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.StringTokenizer;
 
-public class Majormain extends ActionBarActivity
-{
+public class Majormain extends ActionBarActivity {
+
     private ViewPager mPager;
     private SlidingTabLayout mTabs;
     private String[] tabs = { "BUZZ!", "TechnoVIT'15", "Faculty Track" };
@@ -65,13 +65,10 @@ public class Majormain extends ActionBarActivity
 
     String finalData = "";
 
-
-
-
     @Override
-    protected void onCreate( Bundle savedInstanceState)
-    {
+    protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.super_main);
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -93,52 +90,25 @@ public class Majormain extends ActionBarActivity
         userPassword = user.get(SessionManager_login.KEY_EMAIL);
 
         Boolean isFirstRun = getSharedPreferences("PREFERENCE", MODE_PRIVATE).getBoolean("isFirstRun", true);
-        if(isFirstRun)
-        {
-
+        if(isFirstRun) {
 
             new loadsome().execute();
-
 
             //getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit().putBoolean("isFirstRun", false).commit();
             //Intent i = new Intent(Majormain.this, Tutorial.class);
             //startActivity(i);
         }
-        else
-        {
+        else {
             //Starting push notification service
             Intent i = new Intent(this, MyService.class);
             startService(i);
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }//oncreate ends
-
+    }
 
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu)
-    {
+    public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         // In case you have an item
@@ -146,106 +116,89 @@ public class Majormain extends ActionBarActivity
     }
 
 
-    public class TabsPagerAdapter extends FragmentPagerAdapter
-    {
+    public class TabsPagerAdapter extends FragmentPagerAdapter {
+
         public TabsPagerAdapter(FragmentManager fm) {
             super(fm);
         }
 
         @Override
-        public Fragment getItem(int index)
-        {
+        public Fragment getItem(int index) {
 
-            switch (index)
-            {
+            switch (index) {
                 case 0:
-
                     return new MainActivity();
                 case 1:
-
                     return new MUN();
                 case 2:
-
                     return new Teacher_search();
             }
 
             return null;
         }
 
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return tabs[position];
+        }
 
-
-    @Override
-    public CharSequence getPageTitle(int position) {
-        return tabs[position];
-    }
-
-    @Override
+        @Override
         public int getCount() {
             // get item count - equal to number of tabs
             return 3;
         }
-
     }
-     @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-      if (keyCode == KeyEvent.KEYCODE_BACK ) {
-
-        finish();
-       return true;
-       }
-
-    return super.onKeyDown(keyCode, event);
-    }
-
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item)
-    {
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK ) {
+            finish();
+            return true;
+        }
+
+        return super.onKeyDown(keyCode, event);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
         int id = item.getItemId();
 
-        if(id == R.id.action_feedback)  //Feedback
-        {
+        if(id == R.id.action_feedback) {
             final String appPackageName = getPackageName(); // getPackageName() from Context or Activity object
             try {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse( "market://details?id=" + appPackageName)));
-            } catch (android.content.ActivityNotFoundException anfe) {
+            }
+            catch (android.content.ActivityNotFoundException anfe) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+            }
         }
-    }
 
-    if(id == R.id.action_share)  //Share
-    {
-        Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
-        startActivity(Intent.createChooser(sharingIntent, "Share via"));
-    }
+        if(id == R.id.action_share) {
+            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            startActivity(Intent.createChooser(sharingIntent, "Share via"));
+        }
 
-    if(id == R.id.action_about)  //About
-    {
-        Intent i = new Intent(Majormain.this, About.class);
-        startActivity(i);
-    }
-
+        if(id == R.id.action_about) {
+            Intent i = new Intent(Majormain.this, About.class);
+            startActivity(i);
+        }
 
         return super.onOptionsItemSelected(item);
     }
 
 
-
-
-
-    public class loadsome extends AsyncTask<String, Integer, String>
-    {
+    public class loadsome extends AsyncTask<String, Integer, String> {
 
         @Override
-        protected String doInBackground(String... params)
-        {
+        protected String doInBackground(String... params) {
+
             InputStream inputStream = getResources().openRawResource(R.raw.finallist);
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
-            try
-            {
+
+            try {
                 String csvLine;
-                while ((csvLine = reader.readLine()) != null)
-                {
+                while ((csvLine = reader.readLine()) != null) {
                     recieve = csvLine.split(",");
                     teachers = recieve[0];
                     periodss = recieve[1];
@@ -256,39 +209,21 @@ public class Majormain extends ActionBarActivity
                     entry.close();
                 }
             }
-            catch (IOException ex)
-            {
+            catch (IOException ex) {
                 throw new RuntimeException("Error in reading CSV file: " + ex);
             }
-            catch (SQLException e)
-            {
+            catch (SQLException e) {
                 e.printStackTrace();
             }
-            finally
-            {
-                try
-                {
+            finally {
+                try {
                     inputStream.close();
                 }
-                catch (IOException e)
-                {
+                catch (IOException e) {
                     throw new RuntimeException("Error while closing input stream: " + e);
                 }
             }
             return "go";
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
