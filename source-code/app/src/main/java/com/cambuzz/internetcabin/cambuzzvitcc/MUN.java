@@ -47,7 +47,7 @@ import java.util.List;
 public class MUN extends Fragment
 {
     // json array response url *********************************************************************
-    private String urlJsonArry = "http://cambuzz.co.in/public/Inside/app_technovit.php";
+    private String urlJsonArry = "http://cambuzz.me/public/Inside/app_technovit.php";
     private static String TAG = MUN.class.getSimpleName();
 
     SessionManager session;

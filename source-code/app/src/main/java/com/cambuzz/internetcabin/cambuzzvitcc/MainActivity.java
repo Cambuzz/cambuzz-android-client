@@ -49,7 +49,7 @@ public class MainActivity extends Fragment implements  SwipeRefreshLayout.OnRefr
 {
 
     // json array response url *********************************************************************
-    private String urlJsonArry = "http://cambuzz.co.in/public/Inside/app.php";
+    private String urlJsonArry = "http://cambuzz.me/public/Inside/app.php";
     private static String TAG = MainActivity.class.getSimpleName();
 
     SessionManager session;
